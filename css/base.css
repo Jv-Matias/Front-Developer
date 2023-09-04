@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+
+    background: #161623;
+}
+
+h4 {
+    color: aliceblue;
+}
+
+ul>li>a:hover {
+    background: rgb(219, 205, 12);
+    box-shadow: 0 10px 40px -12px black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#demo {
+    position: relative;
+    width: 900px;
+    height: 550px;
+    margin: 40px auto;
+    border: 2px solid white;
+    overflow: hidden;
+    box-shadow: 0 10px 40px -12px black;
+}
+
+.Container-Video {
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    margin: 40px auto;
+    border: 2px solid white;
+    overflow: hidden;
+    box-shadow: 0 10px 40px -12px black;
+    align-items: center;
+    margin-left: 23%;
+}
+
+.Container{
+    display: flex;
+    margin-top: 40%;
+}
+.github,
+.Figma {
+
+    width: 75px;
+    margin: 5px;
+    padding: 17px 0px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:  #232321;
+    background: rgb(219, 205, 12);
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px black;
+text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #161623;
+    outline: none;
+}
