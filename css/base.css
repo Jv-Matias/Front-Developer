@@ -46,10 +46,11 @@ ul>li>a:hover {
     margin-left: 23%;
 }
 
-.Container{
+.Container {
     display: flex;
     margin-top: 40%;
 }
+
 .github,
 .Figma {
 
@@ -62,11 +63,11 @@ ul>li>a:hover {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 2px;
-    color:  #232321;
+    color: #232321;
     background: rgb(219, 205, 12);
     cursor: pointer;
     box-shadow: 0 10px 40px -12px black;
-text-align: center;
+    text-align: center;
 }
 
 a {
@@ -74,3 +75,8 @@ a {
     color: #161623;
     outline: none;
 }
+
+.navbar-brand{
+    padding: 6px;
+    align-items: center;
+} 
