@@ -80,3 +80,28 @@ a {
     padding: 6px;
     align-items: center;
 } 
+
+.Container > button{
+    width: 75px;
+    margin: 5px;
+    padding: 17px 0px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #232321;
+    background: rgb(219, 205, 12);
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px black;
+    text-align: center;
+}
+
+.Container > button:hover {
+    background: rgb(219, 205, 12);
+    box-shadow: 0 10px 40px -12px black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
