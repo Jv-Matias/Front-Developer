@@ -35,7 +35,7 @@ ul>li>a:hover {
 }
 
 .Container-Video {
-    position: absolute;
+    position: flex;
     width: 900px;
     height: 550px;
     margin: 40px auto;
@@ -44,30 +44,6 @@ ul>li>a:hover {
     box-shadow: 0 10px 40px -12px black;
     align-items: center;
     margin-left: 23%;
-}
-
-.Container {
-    display: flex;
-    margin-top: 40%;
-}
-
-.github,
-.Figma {
-
-    width: 75px;
-    margin: 5px;
-    padding: 17px 0px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #232321;
-    background: rgb(219, 205, 12);
-    cursor: pointer;
-    box-shadow: 0 10px 40px -12px black;
-    text-align: center;
 }
 
 a {
@@ -82,9 +58,9 @@ a {
 } 
 
 .Container > button{
-    width: 75px;
-    margin: 5px;
-    padding: 17px 0px;
+    width: 5%;
+    height: 5%;
+    margin: 15px;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -95,13 +71,22 @@ a {
     background: rgb(219, 205, 12);
     cursor: pointer;
     box-shadow: 0 10px 40px -12px black;
-    text-align: center;
+
 }
 
-.Container > button:hover {
-    background: rgb(219, 205, 12);
-    box-shadow: 0 10px 40px -12px black;
+.Container-button > button{
+    width: 5%;
+    height: 5%;
+    margin: 15px;
+    border: none;
     border-radius: 5px;
-    cursor: pointer;
+    outline: none;
     text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #232321;
+    background: rgb(219, 205, 12);
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px black;
+    align-items: center;
 }
