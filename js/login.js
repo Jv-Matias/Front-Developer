@@ -55,10 +55,10 @@ function autenticar(email, senha){
         salvarUsuario(response.usuario);
         
         // Aqui vou esconder a tela de login e carregar o loading..
-        mostrarLoading();
+        MostrarModal();
 
         setTimeout(() =>{
-            window.open('controle-cliente.html', '_self');
+            window.open('home.html', '_self');
         }, 2500)
         
        }
@@ -66,7 +66,7 @@ function autenticar(email, senha){
 }
 
 
-function mostrarLoading(){
+function MostrarModal(){
     Swal.fire({
         position: 'center',
         icon: 'success',
